@@ -12,11 +12,41 @@ color: #2F4F4F;
 
 }
 
+
+
+$font-main: Arial, sans-serif;
+$color-dark: #2F4F4F;
+$color-accent: #8B0000;
+$color-border-hover: rgb(70, 125, 227);
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  font: 700 20px $font-main;
+  color: $color-dark;
+}
+
 .people {
+  display: flex;
+  flex-wrap: wrap;
+  width: 510px;
+  gap: 10px;
+
+  &__sportsmen {
     display: flex;
-    flex-wrap: wrap;
-    width: 510px;
-    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 40px;
+    border: 1px solid white;
+    width: 250px;
+
+    &--0:hover {
+      border: 3px solid $color-border-hover;
+    }
+  }
 }
 
 
@@ -29,15 +59,7 @@ img {
   gap: 10px;
 }
 
-.people__sportsmen {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    padding-top: 40px;
-    border: 1px solid white;
-    width: 250px;
-}
+
 
 .people--sportsmen--0:hover {
     border: 1px solid rgb(70, 125, 227);
