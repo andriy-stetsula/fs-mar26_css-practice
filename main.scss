@@ -1,1 +1,64 @@
 
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    font-family: Arial;
+font-weight: 700;
+font-size: 20px;
+color: #2F4F4F;
+
+}
+
+.people {
+    display: flex;
+    flex-wrap: wrap;
+    width: 510px;
+    gap: 10px;
+}
+
+
+img {
+    border-radius: 50%;
+    height: 231px;
+}
+
+.name {
+  gap: 10px;
+}
+
+.people__sportsmen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 40px;
+    border: 1px solid white;
+    width: 250px;
+}
+
+.people--sportsmen--0:hover {
+    border: 1px solid rgb(70, 125, 227);
+    border-width: 3px;
+}
+
+.rank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    background-color: #FFFFFF;
+    top: 140px;
+    right: 22px;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    color:#8B0000;
+    margin-top: 1px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
