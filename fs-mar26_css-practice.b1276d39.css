@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #2f4f4f;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.people {
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 510px;
+  display: flex;
+}
+
+img {
+  border-radius: 50%;
+  height: 231px;
+}
+
+.name {
+  gap: 10px;
+}
+
+.people__sportsmen {
+  border: 1px solid #fff;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  padding-top: 40px;
+  display: flex;
+  position: relative;
+}
+
+.people--sportsmen--0:hover {
+  border: 3px solid #467de3;
+}
+
+.rank {
+  text-align: center;
+  color: #8b0000;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  margin-top: 1px;
+  font-weight: bold;
+  display: flex;
+  position: absolute;
+  top: 140px;
+  right: 22px;
+}
+/*# sourceMappingURL=fs-mar26_css-practice.b1276d39.css.map */
